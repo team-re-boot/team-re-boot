@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "team-re-boot"
+version = "0.1.0"
+description = ""
+authors = ["Masaya Kataoka <ms.kataoka@gmail.com>"]
+license = "Apache-2.0"
+readme = "README.md"
+packages = []
+
+[tool.poetry.dependencies]
+python = "^3.10"
+mkdocs = "^1.4"
+mkdocs-material = "^9.1"
+fontawesome_markdown = "*"
+mkdocs-mermaid2-plugin = "*"
+pymdown-extensions = "*"
+mkdocs-git-revision-date-localized-plugin = "*"
+mkdocs-gitsnippet-plugin = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
